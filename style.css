@@ -1,0 +1,620 @@
+a{
+	color: white!important;
+}
+
+.ana{
+	margin-left: 5%;
+	margin-right: 5%;
+	top: 50px;
+}
+
+.ana-form{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 10vh;
+	top: 25px;
+}
+
+.ana-hata{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 10vh;
+	top: 50px;
+}
+
+.ana-hata span{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.yapildi{
+	opacity: 0.5;
+}
+
+
+.text-b{
+	font-size: 7vh;
+	color: white;
+	font-weight: bold;
+	line-height: 100%;
+}
+
+.text-m{
+	font-size: 6vh;
+	color: white!important;
+	font-weight: bold;
+	line-height: 100%;
+}
+
+@media (max-width: 768px){
+	.text-b{
+		font-size: 5vh;
+		margin-top: 5px;
+	}
+
+	.text-m{
+		font-size: 4vh;
+		margin-top: 7px;
+	}
+}
+
+@media (max-width: 376px){
+	.text-b{
+		font-size: 4vh;
+		margin-top: 12px;
+	}
+
+	.text-m{
+		font-size: 3vh;
+		margin-top: 17px;
+	}
+}
+
+.ntd-card{
+	width: 26%;
+	height: auto;
+	border: 1px solid rgba(0,0,0,.125);
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 37%;
+	top: 25%;
+	padding: 20px;
+}
+
+.ntd-card-head{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.ntd-card-body{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.ntd-card-footer{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.ntd-card-ekle{
+	height: auto;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-top: 10vh;
+	padding: 20px;
+}
+
+.ntd-card-cnt{
+	width: 100%;
+	height: auto;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+	background-color: #ecf0f1!important;
+	color: #2c3e50;
+	margin-top: 10vh;
+	padding: 20px;
+	-webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.3);
+}
+
+.ntd-card-cnt2{
+	width: 100%;
+	height: auto;
+	margin-top: 1vh;
+	padding: 10px;
+}
+
+.ntd-card-trns{
+	background-color: rgba(0, 0, 0, 0.5)!important;
+}
+
+.ntd-card-black{
+	background-color: rgba(0, 0, 0, 0.8)!important;
+}
+
+.ntd-card-red{
+	background-color: #E53935!important;
+}
+
+.ntd-card-yellow{
+	background-color: #FFC107!important;
+}
+
+.ntd-card-green{
+	background-color: #4CAF50!important;
+}
+
+.ntd-card-blue{
+	background-color: #2196F3!important;
+}
+
+.ntd-card-pink{
+	background-color: #E91E63!important;
+}
+
+.ntd-card-purple{
+	background-color: #9C27B0!important;
+}
+
+.ntd-card-dflt{
+	background-color: #ecf0f1!important;
+}
+
+.ntd-input{
+	background-color: transparent;
+	border-left: 0px;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 0.5px solid rgba(0, 0, 0, 1);
+	border-radius: 20px;
+	color: rgba(255, 255, 255, 1);
+	width: 100%;
+	padding: 5px 20px;
+	font-size: 20px;
+	height: 40px;
+}
+
+.ntd-input:hover{
+	background-color: rgba(0, 0, 0, 0.5)!important;
+}
+
+.ntd-file::-webkit-file-upload-button{
+	visibility: hidden;
+}
+.ntd-file::file-upload-button{
+	visibility: hidden;
+}
+
+.ntd-file::before{
+	content: 'Dosya Seç';
+	display: inline-block;
+	background: transparent;
+	border-left: 0px;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 0.5px solid rgba(0, 0, 0, 1);
+	border-radius: 20px;
+	padding: 5px 10px;
+	outline: none;
+	-webkit-user-select: none;
+	cursor: pointer;
+	font-size: 17px;
+}
+
+.ntd-file:hover::before{
+	background-color: rgba(0, 0, 0, 0.5)!important;
+}
+
+.ntd-file:active::before{
+	background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.ntd-textarea{
+	background-color: rgba(0, 0, 0, 0.5);
+	border-left: 0px;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid rgba(0, 0, 0, 1);
+	border-radius: 20px;
+	color: rgba(255, 255, 255, 1);
+	width: 100%;
+	padding: 5px 20px;
+	font-size: 20px;
+	height: 40px;
+}
+
+.ntd-textarea:hover{
+	background-color: rgba(0, 0, 0, 0.5)!important;
+}
+
+.ntd-select{
+	width: 100%;
+	height: 40px;
+	background-color: transparent;
+	border-left: 0px;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 0.5px solid rgba(0, 0, 0, 1);
+	border-radius: 20px;
+	padding: 5px 15px;
+	color: white;
+	cursor: pointer;
+
+	-webkit-appearance: none; 
+	-moz-appearance: none;
+	appearance: none;       /* remove default arrow */
+	background-image: url(...);   /* add custom arrow */
+}
+
+.ntd-select:hover{
+	background-color: rgb(0,0,0,0.5);
+}
+
+.ntd-select option{
+	color: black;
+}
+
+.ntd-select::-ms-expand { 
+	display: none; /* hide the default arrow in ie10 and ie11 */
+}
+
+/*CHECKBOX BAŞLANGIÇ*/
+/* The container */
+.containere {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	font-size: 20px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.containere input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0px;
+	width: 0px;
+}
+
+/* Create a custom checkbox */
+.ntd-checkbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 40px;
+	font-size: 20px;
+	width: 100%;
+	padding-left: 15px!important;
+	padding:5px;
+	background-color: none;
+	border-radius: 20px;
+	border-bottom: 0.5px solid black;
+}
+
+/* On mouse-over, add a grey background color */
+.containere:hover input ~ .ntd-checkbox {
+	background-color: rgb(0,0,0,0.5);
+}
+
+/* When the checkbox is checked, add a blue background */
+.containere input:checked ~ .ntd-checkbox {
+	background-color: rgb(0,0,0,0.5);
+}
+
+/* Create the ntd-checkbox/indicator (hidden when not checked) */
+.ntd-checkbox:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the ntd-checkbox when checked */
+.containere input:checked ~ .ntd-checkbox:after {
+	display: block;
+}
+
+/* Style the ntd-checkbox/indicator */
+.containere .ntd-checkbox:after {
+	right: 20px;
+	top: 8px;
+	width: 10px;
+	height: 20px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+/*CHECKBOX BİTİŞ*/
+
+/*BUTONLAR BAŞLANGIÇ*/
+
+.ntd-button{
+	background-color: #ffffff00;
+	height: 50px;
+	width: 100%;
+	border-radius: 25px;
+	font-size: 20px;
+	line-height: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #2c3e50;
+	border: 1px solid #2c3e50;
+
+}
+
+.ntd-button-trns{
+	border: 1px solid black;
+	color: rgba(255, 255, 255, 1);
+}
+
+.ntd-button-trns:hover{
+	background-color: rgba(0, 0, 0, 0.5)!important;
+}
+
+.ntd-button-red:hover{
+	background-color: #B71C1C!important;
+	color: #ecf0f1;
+	border: 1px solid #B71C1C;
+} 
+
+.ntd-button-yellow:hover{
+	background-color: #FFA000!important;
+	color: #ecf0f1;
+	border: 1px solid #FFA000;
+}
+
+.ntd-button-green:hover{
+	background-color: #388E3C!important;
+	color: #ecf0f1;
+	border: 1px solid #388E3C;
+}
+
+.ntd-button-blue:hover{
+	background-color: #1976D2!important;
+	color: #ecf0f1;
+	border: 1px solid #1976D2;
+}
+
+.ntd-button-pink:hover{
+	background-color: #AD1457!important;
+	color: #ecf0f1;
+	border: 1px solid #AD1457;
+}
+
+.ntd-button-purple:hover{
+	background-color: #7B1FA2!important;
+	color: #ecf0f1;
+	border: 1px solid #7B1FA2;
+} 
+
+.ntd-button-dflt:hover{
+	background-color: #2c3e50!important;
+	color: #ecf0f1;
+	border: 1px solid #2c3e50;
+}
+
+.buton-spn{
+	border: 1px solid #2c3e50;
+	padding: 8px 25px;
+	border-radius: 24px;
+	cursor: pointer;
+}
+
+.buton-spnswitch{
+	border: 2px solid black;
+	padding: 8px 25px;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.spn-yazi{
+	color: #2c3e50;
+	background-color: #ecf0f1;
+	border: 1px solid #ecf0f1;
+	border-radius: 24px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.spn-foto{
+	color: #ecf0f1;
+	border: 1px solid #00000000;
+	border-radius: 24px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.spn-ekle:hover{
+	background-color: #00C853;
+	color: #ecf0f1;
+	border: 1px solid #00C853;
+} 
+
+.spn-duzenle:hover{
+	background-color: #2196F3;
+	color: #ecf0f1;
+	border: 1px solid #2196F3;
+}
+
+.spn-cik:hover{
+	background-color: #D50000;
+	color: #ecf0f1;
+	border: 1px solid #D50000;
+}
+
+.spn-yazi:hover{
+	background-color: #ecf0f1!important;
+	color: #2c3e50!important;
+	border: 1px solid #00C853;
+}
+
+.spn-foto:hover{
+	background-color: #ecf0f1!important;
+	color: #2c3e50!important;
+	border: 1px solid #D50000;
+}
+
+@media (max-width: 768px){
+
+	.ntd-button-uyari{
+		background-color: #2c3e50!important;
+		color: #ecf0f1;
+		border: 1px solid #2c3e50;
+	}
+	.ntd-button-red{
+		background-color: #B71C1C!important;
+		color: #ecf0f1;
+		border: 1px solid #B71C1C;
+	} 
+
+	.ntd-button-yellow{
+		background-color: #FFA000!important;
+		color: #ecf0f1;
+		border: 1px solid #FFA000;
+	}
+
+	.ntd-button-green{
+		background-color: #388E3C!important;
+		color: #ecf0f1;
+		border: 1px solid #388E3C;
+	}
+
+	.ntd-button-blue{
+		background-color: #1976D2!important;
+		color: #ecf0f1;
+		border: 1px solid #1976D2;
+	}
+
+	.ntd-button-pink{
+		background-color: #AD1457!important;
+		color: #ecf0f1;
+		border: 1px solid #AD1457;
+	}
+
+	.ntd-button-purple{
+		background-color: #7B1FA2!important;
+		color: #ecf0f1;
+		border: 1px solid #7B1FA2;
+	}
+
+	.ntd-button-dflt{
+		background-color: #2c3e50!important;
+		color: #ecf0f1;
+		border: 1px solid #2c3e50;
+	}
+
+	.spn-ekle{
+		background-color: #00C853;
+		color: #ecf0f1;
+		border: 1px solid #00C853;
+	}
+
+	.spn-duzenle{
+		background-color: #2196F3;
+		color: #ecf0f1;
+		border: 1px solid #2196F3;
+	}
+
+	.spn-cik{
+		background-color: #D50000;
+		color: #ecf0f1;
+		border: 1px solid #D50000;
+	}
+}  
+
+
+/*BUTONLAR BİTİŞ*/
+
+.ntd-form-item{
+	margin-bottom: 30px;
+	margin-top: 30px;
+} 
+
+.ntd-form-item-ozel div{
+	margin-bottom: 20px;
+	margin-top: 20px;
+} 
+
+.ntd-form-item-1{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.ntd-form-item-2{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+
+@media (max-width: 1050px){
+	.ntd-card-trns{
+		width: 40%;
+		left: 30%;
+	}
+	.ntd-card-black{
+		width: 40%;
+		left: 30%;
+	}
+} 
+
+@media (max-width: 768px){
+	.ntd-card-trns{
+		width: 50%;
+		left: 25%;
+	}
+	.ntd-card-black{
+		width: 50%;
+		left: 25%;
+	}
+}   
+
+@media (max-width: 530px){
+	.ntd-card-trns{
+		width: 80%;
+		left: 10%;
+	}
+	.ntd-card-black{
+		width: 80%;
+		left: 10%;
+	}
+} 
+
+
+textarea::placeholder { /* Firefox, Chrome, Opera */ 
+	color: rgba(255, 255, 255, 1);
+}
+
+::placeholder { /* Firefox, Chrome, Opera */ 
+	color: rgba(255, 255, 255, 1);
+} 
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+	color: rgba(255, 255, 255, 1); 
+} 
+
+::-ms-input-placeholder { /* Microsoft Edge */ 
+	color: rgba(255, 255, 255, 1); 
+}
+
+input:focus, button:focus, select:focus, textarea:focus{
+	outline: none;
+}
+
+
+
+/*RENKLER*/
+.c-white{
+	color: white;
+}
